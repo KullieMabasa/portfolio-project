@@ -1,11 +1,14 @@
 h1 {
-  font-family: "DM Serif Display", serif;
+  font-size: 78px;
+  font-weight: bold;
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-size: 38px;
 }
 
-.container {
-  padding: 100px 50px;
+.main-page {
+  padding: 150px 20px;
+  background-color: black;
+  color: white;
 }
