@@ -20,6 +20,9 @@ h2 {
   font-size: 40px;
 }
 
+h3 {
+  font-family: var(--secondary-font);
+}
 p {
   font-size: 20px;
 }
@@ -29,12 +32,26 @@ img {
 }
 
 .header {
-  padding: 100px 0px;
+  padding: 100px 0 0;
   color: white;
 }
 
-.container {
+.container-index {
   margin-top: 70px;
+}
+
+.contact-me {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.main-contact {
+  padding: 70px 0 0;
+}
+
+.main-contact h2 {
+  font-weight: 50%;
+  font-size: 30px;
 }
 
 .footer {
@@ -59,7 +76,7 @@ img {
     text-align: center;
   }
   .header {
-    padding: 50px 20px;
+    padding: 70px 20px;
   }
 
   .footer {
