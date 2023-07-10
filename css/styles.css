@@ -10,14 +10,14 @@
 }
 
 h1 {
-  font-size: 95px;
+  font-size: 80px;
   font-family: var(--first-font);
 }
 
 h2 {
   font-family: var(--secondary-font);
   font-weight: bold;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 p {
@@ -28,8 +28,8 @@ img {
   width: 80%;
 }
 
-.main-page {
-  padding: 150px 20px;
+.header {
+  padding: 150px 50px;
   color: white;
 }
 
@@ -41,9 +41,9 @@ img {
   padding: 30px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 600px) {
   h1 {
-    font-size: 45px;
+    font-size: 44px;
   }
   h2 {
     font-size: 20px;
@@ -55,7 +55,7 @@ img {
   .container {
     text-align: center;
   }
-  .main-page {
+  .header {
     padding: 170px 20px;
   }
 }
