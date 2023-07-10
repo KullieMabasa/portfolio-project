@@ -10,13 +10,22 @@
 }
 
 h1 {
-  font-size: 85px;
+  font-size: 95px;
   font-family: var(--first-font);
 }
 
 h2 {
   font-family: var(--secondary-font);
   font-weight: bold;
+  font-size: 45px;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  width: 80%;
 }
 
 .main-page {
@@ -26,4 +35,20 @@ h2 {
 
 .container {
   margin-top: 70px;
+}
+
+@media (max-width: 850px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  .container {
+    text-align: center;
+  }
 }
