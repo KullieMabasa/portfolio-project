@@ -1,14 +1,29 @@
+:root {
+  --first-font: "Prompt", sans-serif;
+  --secondary-font: "Open Sans", sans-serif;
+}
+
+.whole-page {
+  background-color: black;
+  color: white;
+  font-family: var(--secondary-font);
+}
+
 h1 {
-  font-size: 78px;
-  font-weight: bold;
+  font-size: 85px;
+  font-family: var(--first-font);
 }
 
 h2 {
-  font-size: 38px;
+  font-family: var(--secondary-font);
+  font-weight: bold;
 }
 
 .main-page {
   padding: 150px 20px;
-  background-color: black;
   color: white;
+}
+
+.container {
+  margin-top: 70px;
 }
