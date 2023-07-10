@@ -51,4 +51,7 @@ img {
   .container {
     text-align: center;
   }
+  .main-page {
+    padding: 50px 20px;
+  }
 }
