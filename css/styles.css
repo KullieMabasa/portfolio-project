@@ -37,6 +37,10 @@ img {
   margin-top: 70px;
 }
 
+.footer {
+  padding: 30px;
+}
+
 @media (max-width: 850px) {
   h1 {
     font-size: 45px;
